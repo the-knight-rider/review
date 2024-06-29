@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+    transition-duration: 0.5s;
+}
+
+.background {
+    background-image: url(images/background.svg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5% 0 5%;
+}
+
+.nav button {
+    background-color: white;
+    padding: 15% 30% 15% 30%;
+    margin-top: 30%;
+    border: solid 1px blue;
+    border-radius: 10px;
+    color: blue;
+}
+
+.sec1 {
+    /* background-color: aqua; */
+    height: 100vh;
+    margin: 0 5% 0 5%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+}
+
+.subsec1 {
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    width: 80%;
+}
+
+.subsec1 h1 {
+    font-size: 4.5rem;
+    line-height: 1;
+}
+
+.subsec1 p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.subsec2 {
+    /* background-color: aquamarine; */
+
+}
+
+.marqee1 {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.marquee-container {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+
+}
+
+.marquee {
+    display: flex;
+    /* width: calc(200% );  */
+    animation: marquee-animation 10s linear infinite;
+}
+
+.marquee img {
+    /* height: 100px; */
+    flex-shrink: 0;
+    margin-right: 20px;
+}
+
+@keyframes marquee-animation {
+    0% {
+        transform: translateX(0%);
+        /* Start at the beginning of the container */
+    }
+
+    100% {
+        transform: translateX(-70%);
+        /* End at the midpoint of the container */
+    }
+}
+
+.section {
+    padding: 5rem 4rem 2.5rem 4rem;
+}
+
+.section h3 {
+    font-size: 15px;
+    line-height: 1.75rem;
+    color: rgb(67 56 202)
+}
+
+.serving {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20em;
+
+}
+
+.serving h1 {
+    font-size: 48px;
+    /* width: 70%; */
+}
+
+.serving p {
+    font-size: 20px;
+    width: 70%;
+
+}
+
+.industries {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    row-gap: 1.75rem;
+    column-gap: 2rem;
+    margin-top: 2.5rem;
+    padding: 5rem 4rem 2.5rem 4rem;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: solid rgb(209 213 219) 1px;
+    border-radius: 0.5rem;
+    padding: 1.25rem;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.info h1 {
+    font-size: 15px;
+}
+
+.info img {
+    width: 2.5rem;
+    height: auto;
+}
+
+.section2 {
+    padding: 2.5rem 4rem 2.5rem 4rem;
+}
+
+.section2 h3 {
+    color: rgb(67 56 202);
+    margin-bottom: 1.25rem;
+}
+
+.subsection2 {
+    display: flex;
+    gap: 2.5rem;
+
+}
+
+.subsec2 {
+    flex-basis: 50%;
+}
+
+.subsec2 img {
+    width: 90%;
+    height: auto;
+}
+
+#hrline {
+    width: 100%;
+}
+
+.subsec21 {
+    width: 40%;
+}
+
+.subsec21111 {
+    /* background-color: aqua; */
+    padding: 1em;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+span img {
+    width: 20px;
+}
+
+#how {
+    text-align: center;
+}
+
+.step h3 {
+    font-size: 15px;
+    line-height: 1.75rem;
+    color: rgb(67 56 202);
+    margin-bottom: 1.25rem;
+    margin: 3rem;
+}
+
+.stepsec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-basis: 50%; */
+    margin: 0% 10% 0 10%;
+}
+
+.stepright {
+    width: 50%;
+}
+
+.stepsec h2 {
+    font-size: 3rem;
+    line-height: 1;
+    margin-bottom: 1.25rem;
+}
+
+.stepsec p {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+.stepsec img {
+    width: 300px;
+}
+
+#aboutimg {
+    width: 100%;
+}
+
+.stepright button {
+    padding: 0.75rem 2.5rem 0.75rem 2.5rem;
+    color: white;
+    margin-top: 2rem;
+    border-width: 1px;
+    border-radius: 0.5rem;
+    background-color: rgb(49 46 129);
+}
+
+.contactus {
+    padding: 4rem 0 4rem 0;
+    margin: 2.5rem 1.25rem 2.5rem 1.25rem;
+    border-radius: 0.75rem;
+    background-color: rgb(229 234 247);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactus button {
+    font-size: 15px;
+    margin-top: 1rem;
+    line-height: 1.75rem;
+    padding: 0.75rem 2.5rem 0.75rem 2.5rem;
+    color: white;
+    border-width: 1px;
+    border-radius: 0.5rem;
+    background-color: rgb(49 46 129);
+}
+
+.footer {
+    padding: 2.5rem 4rem 2.5rem 4rem;
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 231 107);
+    border-top-left-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
+
+}
+
+.foot {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.foot1 {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    /* align-items: center; */
+    width: 50%;
+}
+.foot1 img{
+    width: 8rem;
+}
+
+.foot2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: left;
+    width: 50%;
+
+}
+
+.footer p {
+    margin: .5rem;
+    text-align: left;
+}
+#copyright{
+    margin: 2rem ;
+    text-align: center;
+}
+.social img{
+width: 3rem;
+}

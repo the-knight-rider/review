@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -17,23 +18,24 @@
                 </button></div>
         </div>
         <div class="sec1">
-            <div class="subsec1">
-                <h1>Every</h1>
-                <h1 class="highlight-text">Reviews</h1>
-                <h1> Matters</h1>
-                <p id="welcomepc">Welcome to BuyReviews where reviews have a soul,we believe in the power of authentic feedback. We
+            <div>
+                <div class="subsec1">
+                    <h1>Every</h1>
+                    <h1 class="highlight-text">Reviews</h1>
+                    <h1> Matters</h1>
+                </div>
+                <p>Welcome to BuyReviews where reviews have a soul,we believe in the power of authentic
+                    feedback. We
                     provide humanised reviews for your Business. We make every review count because each review has
                     its
                     story.</p>
             </div>
-            
-                <p id="welcomemob">Welcome to BuyReviews where reviews have a soul,we believe in the power of authentic feedback. We
-                    provide humanised reviews for your Business. We make every review count because each review has
-                    its
-                    story.</p>
-            
             <div class="subsec2">
-                <img src="images/Animation - 1719659649628.gif" alt="">
+                <div class="banner-right">
+                    <lottie-player id="animation"
+                        src="https://lottie.host/6d8a91a7-2c1a-4354-814f-d835b0dcb4f6/HdS8ahjTx4.json"
+                        background="transparent" speed="1" loop autoplay></lottie-player>
+                </div>
             </div>
         </div>
     </div>
@@ -173,7 +175,7 @@
     </div>
     <div class="subsection2">
         <div class="subsec2">
-            <img src="images/main/Questions-cuate.svg" alt="">
+            <img id="faq" src="images/main/Questions-cuate.svg" alt="">
         </div>
 
         <div class="subsec21">
@@ -293,16 +295,13 @@
     </div>
     <hr id="horizontal">
     <div class="stepsec4">
-       
-        
+        <div class="stepleft4">
+            <img src="images/main/Creative team-cuate.svg" alt="">
+        </div>
         <div class="stepright4">
-
             <h2>
                 About Us
             </h2>
-            <div class="stepleft4">
-                <img id="aboutimg" src="images/main/Creative team-cuate.svg" alt="">
-            
             <p>
                 Our review management assures your business makes meaningful connections that drive growth. Let us
                 enhance your reputation and reach more customers through impactful online reviews. Our review management
@@ -310,12 +309,12 @@
                 reach more customers through impactful online reviews. Our review management assures your business makes
                 meaningful connections that drive growth. Let us enhance your reputation and reach more customers
                 through impactful online reviews.
-                <span id="welcomepc"><button>Contact Us</button></span>
+            </p>
+            <span id="welcomepc"><button>Contact Us</button></span>
             </p>
         </div>
-            <button  id="welcomemob">Contact Us</button>
-        </div>
-       
+        <button id="welcomemob">Contact Us</button>
+    </div>
 
     </div>
     <div class="contactus">
@@ -329,7 +328,7 @@
     <div class="footer">
         <div class="foot">
             <div class="foot1">
-                <img  class="foo" src="images/logo_small.svg" alt="">
+                <img class="foo" src="images/logo_small.svg" alt="">
                 <b class="foo">BuyReviews.ae</b>
                 <p class="foo" id="center">
                     Your OneStop review solution for your business, Get into the perfect spotlight.

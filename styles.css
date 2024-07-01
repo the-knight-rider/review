@@ -137,6 +137,8 @@
     display: block;
     font-size: 1.2em;
     text-align: center;
+    margin-top: 20px;
+    line-height: 1.5rem;
 }
 .subsec1 { 
     display: flex;
@@ -158,6 +160,7 @@
 .subsec1 h1:first-child{
     margin-left: 1.8em;
 }
+
 .highlight-text {
     display: inline-block;
     font-size: 36px;
@@ -183,9 +186,7 @@
     }
 }
 .subsec1 p {
-    margin-top: 20px;
-    font-size: 1.2rem;
-    line-height: 1.5rem;
+   
 }
 
 }
@@ -193,7 +194,6 @@
 @media (max-width: 480px) {
     
 }
-
 
 .marqee1 {
     text-align: center;
